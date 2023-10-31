@@ -114,3 +114,13 @@ footer {
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
