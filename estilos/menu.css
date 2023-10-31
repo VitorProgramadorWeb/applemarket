@@ -1,24 +1,19 @@
 nav ul {
     list-style-type: none;
+
+    overflow: scroll;
+
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #888;
+
+    display: flex;
 }
 
-nav li {
-    float: left;
-}
-
-nav li a {
-    display: block;
-    color: white;
+nav ul li a {
     text-decoration: none;
-    padding: 10px 20px;
-}
 
-nav li a:hover {
-    color: yellow;
-    padding-top: 5px;
-    border-top: 5px solid yellow;
+    text-wrap: nowrap;
+
+    padding-left: 10px;
+    padding-right: 10px;
 }
