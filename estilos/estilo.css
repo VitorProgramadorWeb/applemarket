@@ -1,0 +1,11 @@
+th, td {
+    border: 1px solid;
+}
+
+tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+tr:hover {
+    background-color: rgb(122, 189, 255);
+}
