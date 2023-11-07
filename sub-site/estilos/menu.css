@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul ul {
+    visibility: hidden;
+}
+
+nav a {
+    border: 1px solid;
+}
