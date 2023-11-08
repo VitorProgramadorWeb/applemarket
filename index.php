@@ -17,6 +17,21 @@
 
 	<?php include 'menu.php' ?>
 
+	<?php
+		
+		$txt = "Vítor";
+		echo "<h1>Olá mundo!</h1>";
+
+		date_default_timezone_set("America/Sao_Paulo");
+		echo "Olá $txt!" . date("h:i");
+
+		echo "<br>";
+		$email = "vitor.programadoweb@gmail.com";
+		echo "O meu e-mail é:     $email";
+	?>
+
+	<br><br><br><br><br><br>
+
 	<article>
 		<h1>Este é o corpo do HTML</h1>
 		<p class="primeiro-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus nemo quia obcaecati natus quis eum tenetur eaque similique labore. Esse error fugit ea eos tempora eligendi quos perferendis, est magnam?</p>
@@ -76,7 +91,7 @@
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit consequatur blanditiis sunt corrupti nulla dolores vel cum fugit laborum voluptatum aliquid, sequi porro, distinctio libero debitis ex sed asperiores vero. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quas at odit obcaecati, doloremque distinctio quod, esse et rerum explicabo nam ut voluptatem modi, suscipit nesciunt quam? Repellendus, praesentium commodi!</p>
 	</aside>
 
-	<footer>Todos os direitos reservados <a href="sub-site/ajuda.php" style="text-decoration: none; color: black">&copy;</a> Vítor Menezes Oliveira</footer>
+	<?php include 'rodape.php' ?>
 
 </body>
 </html>

@@ -1,15 +1,33 @@
-nav {
+.barradenavegacao {
+    background-color: rgb(29, 176, 29);
+
+    display: flex;
+    align-items: center;
+}
+
+.menu {
     display: flex;
 }
 
-nav ul {
+.sub-menu {
+    display: none;
+}
+
+.item-menu {
+    background-color: rgb(29, 176, 29);
+
+    padding: 20px;
+}
+
+/* Hovers */
+
+.item-menu:hover .sub-menu {
     display: flex;
+    flex-direction: column;
+
+    position: absolute;
 }
 
-nav ul ul {
-    visibility: hidden;
-}
-
-nav a {
-    border: 1px solid;
+.item-menu:hover {
+    background-color: green;
 }

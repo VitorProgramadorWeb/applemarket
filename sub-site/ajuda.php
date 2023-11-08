@@ -11,22 +11,29 @@
 </head>
 <body>
 
-    <nav>
+    <nav class="barradenavegacao">
+
+        <!-- logo -->
         <a href="../index.php"><img src="../imagens/favicon.ico" alt="Voltar para AppleMarket"></a>
-        <ul>
-            <li><a href="">Lista</a></li>
-            <li><a href="">Display</a></li>
-            <ul>
-                <li>Grid</li>
-                <li>Flex</li>
-            </ul>
-            <li><a href="">Transform</a></li>
-            <li><a href="">Transition</a></li>
-            <ul>
-                <li>@keyframe</li>
-            </ul>
-            <li><a href="">Position</a></li>
+        
+        <!-- menu -->
+        <ul class="menu">
+            <li class="item-menu"><a href="">Lista</a></li>
+            <li class="item-menu">Display
+                <ul class="sub-menu">
+                    <li class="item-menu"><a href="">Grid</a></li>
+                    <li class="item-menu"><a href="">Flex</a></li>
+                </ul>
+            </li>
+            <li class="item-menu"><a href="">Transform</a></li>
+            <li class="item-menu"><a href="">Transition</a>
+                <ul class="sub-menu">
+                    <li class="item-menu"><a href="">@keyframe</a></li>
+                </ul>
+            </li>
+            <li class="item-menu"><a href="">Position</a></li>
         </ul>
+
     </nav>
     
     <div class="objetivos">
