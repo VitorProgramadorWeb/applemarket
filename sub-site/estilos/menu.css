@@ -1,8 +1,8 @@
 .barradenavegacao {
-    background-color: rgb(29, 176, 29);
-
     display: flex;
     align-items: center;
+    
+    background-color: rgb(29, 176, 29);
 }
 
 .menu {
@@ -13,7 +13,8 @@
     display: none;
 }
 
-.item-menu {
+.link {
+    display: block;
     background-color: rgb(29, 176, 29);
 
     padding: 20px;
@@ -28,6 +29,6 @@
     position: absolute;
 }
 
-.item-menu:hover {
+.link:hover {
     background-color: green;
 }

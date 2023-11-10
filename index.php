@@ -20,6 +20,18 @@
 	<?php
 		
 		$txt = "Vítor";
+		$idade = 2;
+
+		if($idade > 18) {
+			echo "Você é adulto, tem $idade anos.";
+		} else if($idade == 18) {
+			echo "Você tem exatamente 18 anos.";
+		} else {
+			echo "Você é jovem, tem $idade anos.";
+			echo "<br>";
+			echo var_dump($idade);
+		}
+
 		echo "<h1>Olá mundo!</h1>";
 
 		date_default_timezone_set("America/Sao_Paulo");
@@ -28,9 +40,18 @@
 		echo "<br>";
 		$email = "vitor.programadoweb@gmail.com";
 		echo "O meu e-mail é:     $email";
+
 	?>
 
 	<br><br><br><br><br><br>
+
+	<?php
+		$nomecompleto = array("Vítor", "Menezes", "Oliveira");
+
+		for ($i=0; $i < count($nomecompleto) ; $i++) { 
+			echo " $nomecompleto[$i]";
+		}
+	?>
 
 	<article>
 		<h1>Este é o corpo do HTML</h1>
