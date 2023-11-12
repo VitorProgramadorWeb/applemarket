@@ -41,6 +41,8 @@
 		$email = "vitor.programadoweb@gmail.com";
 		echo "O meu e-mail é:     $email";
 
+		// Classe Carro:
+		include "Carro.php";
 	?>
 
 	<br><br><br><br><br><br>
