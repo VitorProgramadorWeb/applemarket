@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <?php include "sub-site/menu.php" ?>
+    <?php include "menu.php" ?>
     
     <div class="objetivos">
         <ul>

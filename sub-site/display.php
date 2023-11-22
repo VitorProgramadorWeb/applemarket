@@ -12,7 +12,7 @@
 </head>
 <body>
     
-    <?php include "sub-site/menu.php" ?>
+    <?php include "menu.php" ?>
 
     <div class="conteudo">
         <h1>Display</h1>
